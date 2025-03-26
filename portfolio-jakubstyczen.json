@@ -1,0 +1,290 @@
+{
+  "name": "Jakub Styczeń",
+  "label": "Test Engineer",
+  "image_path": "img/prof_resized.jpg",
+  "contact": {
+    "email": "styczen37@gmail.com",
+    "phone": "724-193-803",
+    "location": "Cracow, Poland"
+  },
+  "summary": "Student of Master degree Automatics and Robotics   /   Test Engineer Intern at HID    /    Automatics and Robotics Engineer    /    Electronic Technican",
+  "base_url": "https://jakubstyczen.github.io/",
+  "social_links": [
+    {
+      "label": "Github",
+      "url": "https://github.com/JakubStyczen",
+      "svg_path": "img/github.svg"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/jakub-stycze%C5%84-97944925b/",
+      "svg_path": "img/linkedin.svg"
+    }
+  ],
+  "work_experience": [
+    {
+      "company": "HID",
+      "position": "Test Engineer Intern",
+      "url": "https://www.hidglobal.com/",
+      "start_date": "01/2025",
+      "end_date": "Present",
+      "summary": "Testing software for card printers",
+      "highlights": [
+        "Created new automated test cases using Python and Gauge",
+        "Ran tests suites on virtual machines for serveral repositories",
+        "Created and reviewed tests raports"
+      ]
+    },
+    {
+      "company": "ABB E-mobility",
+      "position": "Software Integration Eningeer Intern",
+      "url": "https://e-mobility.abb.com/en",
+      "start_date": "03/2023",
+      "end_date": "02/2025",
+      "summary": "Setting up RV charger simulation infrastructure",
+      "highlights": [
+        "Developed EV simulation test harness and scripts using Python, REST API and MQTT",
+        "Managed and configured devices with Linux-based os (Bookworm and Bullseye)",
+        "Conducted hardware validation of boards by simple firmware in C",
+        "Created simple CI/CD pipelines and self-hosted agents in MS Azure DevOps",
+        "Created unit tests and system integration tests in PyTest",
+        "Created electrical and mechanical prototypes of simulators of EV and EV charger",
+        "Created basic electric diagrams in KiCad"
+      ]
+    },
+    {
+      "company": "ABB",
+      "position": "Internship",
+      "url": "https://global.abb/",
+      "start_date": "02/2020",
+      "end_date": "03/2020",
+      "summary": "",
+      "highlights": [
+          "Created simple applications using Raspberry Pi",
+          "Wrote simple programs to control robot in ROS using C++ and Python"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Ecological system of bird deterrent",
+      "summary": "Engineer thesis project. Designed system to deter pigeons from the ledge using Raspberry Pi, servo, sensors and camera. Implemented in Python and Flask with connection to MongoDB.",
+      "url": "https://github.com/JakubStyczen/PigeonDeterrent",
+      "highlights": [
+        "Used vision algorithm to detect pigeons (SAD)",
+        "Created system on Raspberry Pi as part of IoT network",
+        "Connected all components (camera, servo and sensors) on breadboard and later on PCB",
+        "Collected data from sensors and camera to log it in MongoDB",
+        "Created simple web app with Flask to display pigeons inerrupts from sensors in monitored area",
+        "Implemented CI pipeline in GitHub Actions to test and format code",
+        "Used tools like PyTest, Black and Pre-commit"
+      ],
+      "images": [
+        {
+          "img_path": "img/proj/moreInterrupts.PNG",
+          "caption": "Web app with interrupts list"
+        },
+        {
+          "img_path": "img/proj/sensorsUML.png",
+          "caption": "UML diagram of sensors system part"
+        },
+        {
+          "img_path": "img/proj/twoPigeonDetter.jpg",
+          "caption": "Fleeing pigeons"
+        }
+      ]
+    },
+    {
+      "title": "Django command center",
+      "summary": "Extension of Engineer thesis project using Djano and sql databases. Extended to read outside temperature and log or display it on external display",
+      "url": "https://github.com/JakubStyczen/django-command-center",
+      "highlights": [
+        "Separated functionality into several Django apps: mainApp, weatherApp, pigeonInterrupts",
+        "Used django-crontab to schedule tasks to read outside temperature and save it in database",
+        "Implemented compatibility by Djongo and Django routers with external MongoDB database from first project version",
+        "Created big test section including unit tests and system tests and most of endpoints (template and functionality check)",
+        "Wrote own manage.py command to display outside temperature on external display",
+        "Extended template of project to contain CI pipeline in GitHub Actions to test and format code and other tools like PyTest, Black and Pre-commit",
+        "Generated test coverage report and publish it as arifact in GitHub Actions"
+      ],
+      "images": [
+        {
+          "img_path": "img/proj/githubActions.png",
+          "caption": "Github Actions CI pipeline"
+        },
+        {
+          "img_path": "img/proj/coverageReport.png",
+          "caption": "Code coverage report"
+        },
+        {
+          "img_path": "img/proj/databaseRecords.png",
+          "caption": "Records in database"
+        }
+      ]
+    },
+    {
+      "title": "Assembler interpreter in Go",
+      "summary": "Implementation of Assembler interpreter (part II) kata from Codewars.com",
+      "url": "https://github.com/JakubStyczen/AssemblerInterpreterGo",
+      "highlights": [
+        "Implemented assembler interpreter for 20 instructions",
+        "Created program allows to run programs like: Fibonacci, Modulo or GCD",
+        "Created tests for all instructions, parsers and programs",
+        "Created CI pipeline in GitHub Actions to test code and generate test report"
+      ],
+      "images": [
+        {
+          "img_path": "img/proj/instructionList.png",
+          "caption": "Assemlber instructions list"
+        },
+        {
+          "img_path": "img/proj/ciSummary.png",
+          "caption": "Ci pipeline summary with test report artifact"
+        },
+        {
+          "img_path": "img/proj/vsCodeTests.png",
+          "caption": "Test run in VS Code"
+        }
+      ]
+    }
+  ],
+  "volunteer_experience": [],
+  "education": [
+    {
+      "institution": "AGH University of Science and Technology",
+      "location": "Cracow",
+      "url": "https://www.agh.edu.pl/",
+      "degrees": [
+        "Master of Engineering - ME, Automatics and Robotics - Computer Control Systems"
+      ],
+      "honors": [],
+      "gpa_cumulative": "",
+      "gpa_major": "",
+      "graduation_date": "2026"
+    },
+    {
+      "institution": "AGH University of Science and Technology",
+      "location": "Cracow",
+      "url": "https://www.agh.edu.pl/",
+      "degrees": [
+        "Bachelor of Engineering - BE, Automatics and Robotics"
+      ],
+      "honors": [
+        "Scholarship Recipient",
+        "Member of student's research group 'INTEGRA' at project 'F1TENTH'",
+        "ICRA 2023 Conference - 11th F1TENTH Autonomous Grand Prix"
+      ],
+      "gpa_cumulative": "5.0",
+      "gpa_major": "",
+      "graduation_date": "2025"
+    },
+    {
+      "institution": "Upper Secondary School of Communications in Cracow",
+      "location": "Cracow",
+      "url": "https://tl.krakow.pl/",
+      "degrees": ["Electronic Technician"],
+      "honors": ["Scholarship Recipient"],
+      "gpa_cumulative": "5.0",
+      "gpa_major": "",
+      "graduation_date": "2021"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "proficiency": 90,
+      "proficiency_label": "Advanced: Flask, Django, Numpy, MongoDB"
+    },
+    {
+      "name": "Manual and automated testing",
+      "proficiency": 80,
+      "proficiency_label": "Advanced: framework like Gauge and PyTest"
+    },
+    {
+      "name": "Version control system Git",
+      "proficiency": 80,
+      "proficiency_label": "Fluently used"
+    },
+    {
+      "name": "Linux os and Bash",
+      "proficiency": 75,
+      "proficiency_label": "Intermediate: Debian, Ubuntu, Raspbian"
+    },
+    {
+      "name": "Networking",
+      "proficiency": 75,
+      "proficiency_label": "Intermediate: debbuging, MQTT, REST API, TCP/IP"
+    },
+    {
+      "name": "C/C++",
+      "proficiency": 70,
+      "proficiency_label": "Intermediate: few projects"
+    },
+    {
+      "name": "Matlab and Simulink",
+      "proficiency": 70,
+      "proficiency_label": "Intermediate"
+    },
+    {
+      "name": "Soldering and electronics knowledge",
+      "proficiency": 70,
+      "proficiency_label": "Intermediate"
+    },
+    {
+      "name": "Golang",
+      "proficiency": 50,
+      "proficiency_label": "Basics, still learining"
+    }
+  ],
+  "licenses_and_certificates": [
+    {
+      "name": "ISTQB® Foundation Level",
+      "org": "ISTQB® - International Software Testing Qualifications Board",
+      "issued": "08/2023",
+      "expire": ""
+    },
+    {
+      "name": "CERTIFICATE OF COMPETENCY within the scope of installing and operating electric distribution networks with voltage below 1kV",
+      "org": "Stowarzyszenie Elektryków Polskich (SEP)",
+      "issued": "03/2024",
+      "expire": "03/2029"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Road cycling",
+      "summary": "",
+      "images": [
+        {
+          "img_path": "img/tarnowBike.jpg",
+          "caption": "Trip to Tarnów"
+        },
+        {
+          "img_path": "img/bike.jpg",
+          "caption": "My excellect road bike"
+        }
+      ]
+    },
+    {
+      "name": "Hiking",
+      "summary": "",
+      "images": [
+        {
+          "img_path": "img/egaleMoutain.jpg",
+          "caption": "The Eagle's Path view"
+        },
+        {
+          "img_path": "img/viewHala.jpg",
+          "caption": "Hala Krupowa view"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English B2",
+      "fluency": ""
+    }
+  ],
+  "references": []
+}
