@@ -5,7 +5,7 @@ from pathlib import Path
 from jinja2 import Environment, FileSystemLoader
 
 # Load JSON data
-with Path("portfolio-jakubstyczen.json").open(encoding="utf-8") as f:
+with Path("json_templates/portfolio-jakubstyczen.json").open(encoding="utf-8") as f:
     data = json.load(f)
 
 # Add any extra context if needed

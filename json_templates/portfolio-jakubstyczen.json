@@ -146,6 +146,17 @@
           "caption": "Test run in VS Code"
         }
       ]
+    },
+    {
+      "title": "Weather condition and energy production in Poland",
+      "summary": "Part of bigger project containing 4 sections. This is section one fetching data from openweathermap.org for 50x50[km] sections in Poland.",
+      "url": "https://github.com/JakubStyczen/WeatherAndEnergyProduction",
+      "highlights": [
+        "Created OPC UA server using Open62541 library to communicate with other nodes",
+        "Created OPC UA client to fetch data from openweathermap.org",
+        "Divided fetching and saving data into several threads"
+      ],
+      "images": []
     }
   ],
   "volunteer_experience": [],
@@ -256,11 +267,11 @@
       "summary": "",
       "images": [
         {
-          "img_path": "img/tarnowBike.jpg",
+          "img_path": "portfolio_media/tarnowBike.jpg",
           "caption": "Trip to Tarnów"
         },
         {
-          "img_path": "img/bike.jpg",
+          "img_path": "portfolio_media/bike.jpg",
           "caption": "My excellect road bike"
         }
       ]
@@ -270,11 +281,11 @@
       "summary": "",
       "images": [
         {
-          "img_path": "img/egaleMoutain.jpg",
+          "img_path": "portfolio_media/egaleMoutain.jpg",
           "caption": "The Eagle's Path view"
         },
         {
-          "img_path": "img/viewHala.jpg",
+          "img_path": "portfolio_media/viewHala.jpg",
           "caption": "Hala Krupowa view"
         }
       ]
