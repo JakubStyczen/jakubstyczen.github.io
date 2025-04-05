@@ -123,6 +123,33 @@
       ]
     },
     {
+      "title": "Weather condition and energy production in Poland",
+      "summary": "Part of bigger project containing 4 sections. This is section one fetching data from openweathermap.org for 50x50[km] sections in Poland.",
+      "url": "https://github.com/JakubStyczen/WeatherAndEnergyProduction",
+      "highlights": [
+        "Created OPC UA server using Open62541 library to communicate with other nodes",
+        "Created OPC UA client to fetch data from openweathermap.org",
+        "Divided fetching and saving data into several threads synchronized with semaphores",
+        "Created CI pipeline in GitHub Actions to deploy binaries, test code and generate test report",
+        "Used CMake to build project",
+        "Added GoogleTest to test code"
+      ],
+      "images": [
+        {
+          "img_path": "img/proj/serverOpcUa.png",
+          "caption": "OPC UA server running on Raspberry Pi"
+        },
+        {
+          "img_path": "img/proj/syncSemaphores.png",
+          "caption": "Synchornizing threads with semaphores"
+        },
+        {
+          "img_path": "img/proj/artifacts.png",
+          "caption": "Published binaries and test report"
+        }
+      ]
+    },
+    {
       "title": "Assembler interpreter in Go",
       "summary": "Implementation of Assembler interpreter (part II) kata from Codewars.com",
       "url": "https://github.com/JakubStyczen/AssemblerInterpreterGo",
@@ -146,17 +173,6 @@
           "caption": "Test run in VS Code"
         }
       ]
-    },
-    {
-      "title": "Weather condition and energy production in Poland",
-      "summary": "Part of bigger project containing 4 sections. This is section one fetching data from openweathermap.org for 50x50[km] sections in Poland.",
-      "url": "https://github.com/JakubStyczen/WeatherAndEnergyProduction",
-      "highlights": [
-        "Created OPC UA server using Open62541 library to communicate with other nodes",
-        "Created OPC UA client to fetch data from openweathermap.org",
-        "Divided fetching and saving data into several threads"
-      ],
-      "images": []
     }
   ],
   "volunteer_experience": [],
