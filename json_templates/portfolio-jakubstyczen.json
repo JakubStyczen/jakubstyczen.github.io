@@ -28,11 +28,13 @@
       "url": "https://www.hidglobal.com/",
       "start_date": "01/2025",
       "end_date": "Present",
-      "summary": "Testing software for card printers",
+      "summary": "Testing software for card printers like drivers, firmware and card customization applications:",
       "highlights": [
-        "Created new automated test cases using Python and Gauge",
-        "Ran tests suites on virtual machines for serveral repositories",
-        "Created and reviewed tests raports"
+        "created new automated test cases using Python and Gauge,",
+        "ran tests suites using Docker containers and virtual machines,",
+        "conducted manual test cases using card printers,",
+        "created and reviewed tests raports,",
+        "refactored repositories."
       ]
     },
     {
@@ -41,15 +43,15 @@
       "url": "https://e-mobility.abb.com/en",
       "start_date": "03/2023",
       "end_date": "02/2025",
-      "summary": "Setting up RV charger simulation infrastructure",
+      "summary": "Setting up RV charger simulation infrastructure:",
       "highlights": [
-        "Developed EV simulation test harness and scripts using Python, REST API and MQTT",
-        "Managed and configured devices with Linux-based os (Bookworm and Bullseye)",
-        "Conducted hardware validation of boards by simple firmware in C",
-        "Created simple CI/CD pipelines and self-hosted agents in MS Azure DevOps",
-        "Created unit tests and system integration tests in PyTest",
-        "Created electrical and mechanical prototypes of simulators of EV and EV charger",
-        "Created basic electric diagrams in KiCad"
+        "developed EV simulation test harness and scripts using Python, REST API and MQTT,",
+        "managed and configured devices with Linux-based os (Bookworm and Bullseye),",
+        "conducted hardware validation of boards by simple firmware in C,",
+        "created simple CI/CD pipelines and self-hosted agents in MS Azure DevOps,",
+        "created unit tests and system integration tests in PyTest,",
+        "created electrical and mechanical prototypes of simulators of EV and EV charger,",
+        "created basic electric diagrams in KiCad."
       ]
     },
     {
@@ -60,8 +62,8 @@
       "end_date": "03/2020",
       "summary": "",
       "highlights": [
-          "Created simple applications using Raspberry Pi",
-          "Wrote simple programs to control robot in ROS using C++ and Python"
+          "created simple applications using Raspberry Pi,",
+          "wrote simple programs to control robot in ROS using C++ and Python."
       ]
     }
   ],
@@ -71,13 +73,13 @@
       "summary": "Engineer thesis project. Designed system to deter pigeons from the ledge using Raspberry Pi, servo, sensors and camera. Implemented in Python and Flask with connection to MongoDB.",
       "url": "https://github.com/JakubStyczen/PigeonDeterrent",
       "highlights": [
-        "Used vision algorithm to detect pigeons (SAD)",
-        "Created system on Raspberry Pi as part of IoT network",
-        "Connected all components (camera, servo and sensors) on breadboard and later on PCB",
-        "Collected data from sensors and camera to log it in MongoDB",
-        "Created simple web app with Flask to display pigeons inerrupts from sensors in monitored area",
-        "Implemented CI pipeline in GitHub Actions to test and format code",
-        "Used tools like PyTest, Black and Pre-commit"
+        "used vision algorithm to detect pigeons (SAD),",
+        "created system on Raspberry Pi as part of IoT network,",
+        "connected all components (camera, servo and sensors) on breadboard and later on PCB,",
+        "collected data from sensors and camera to log it in MongoDB,",
+        "created simple web app with Flask to display pigeons inerrupts from sensors in monitored area,",
+        "implemented CI pipeline in GitHub Actions to test and format code,",
+        "used tools like PyTest, Black and Pre-commit."
       ],
       "images": [
         {
@@ -99,13 +101,13 @@
       "summary": "Extension of Engineer thesis project using Djano and sql databases. Extended to read outside temperature and log or display it on external display",
       "url": "https://github.com/JakubStyczen/django-command-center",
       "highlights": [
-        "Separated functionality into several Django apps: mainApp, weatherApp, pigeonInterrupts",
-        "Used django-crontab to schedule tasks to read outside temperature and save it in database",
-        "Implemented compatibility by Djongo and Django routers with external MongoDB database from first project version",
-        "Created big test section including unit tests and system tests and most of endpoints (template and functionality check)",
-        "Wrote own manage.py command to display outside temperature on external display",
-        "Extended template of project to contain CI pipeline in GitHub Actions to test and format code and other tools like PyTest, Black and Pre-commit",
-        "Generated test coverage report and publish it as arifact in GitHub Actions"
+        "separated functionality into several Django apps: mainApp, weatherApp, pigeonInterrupts,",
+        "used django-crontab to schedule tasks to read outside temperature and save it in database,",
+        "implemented compatibility by Djongo and Django routers with external MongoDB database from first project version,",
+        "created big test section including unit tests and system tests and most of endpoints (template and functionality check),",
+        "wrote own manage.py command to display outside temperature on external display,",
+        "extended template of project to contain CI pipeline in GitHub Actions to test and format code and other tools like PyTest, Black and Pre-commit,",
+        "generated test coverage report and publish it as arifact in GitHub Actions."
       ],
       "images": [
         {
@@ -127,12 +129,12 @@
       "summary": "Part of bigger project containing 4 sections. This is section one fetching data from openweathermap.org for 50x50[km] sections in Poland.",
       "url": "https://github.com/JakubStyczen/WeatherAndEnergyProduction",
       "highlights": [
-        "Created OPC UA server using Open62541 library to communicate with other nodes",
-        "Created OPC UA client to fetch data from openweathermap.org",
-        "Divided fetching and saving data into several threads synchronized with semaphores",
-        "Created CI pipeline in GitHub Actions to deploy binaries, test code and generate test report",
-        "Used CMake to build project",
-        "Added GoogleTest to test code"
+        "created OPC UA server using Open62541 library to communicate with other nodes,",
+        "created OPC UA client to fetch data from openweathermap.org,",
+        "divided fetching and saving data into several threads synchronized with semaphores,",
+        "created CI pipeline in GitHub Actions to deploy binaries, test code and generate test report,",
+        "used CMake to build project,",
+        "added GoogleTest to test code."
       ],
       "images": [
         {
@@ -154,10 +156,10 @@
       "summary": "Implementation of Assembler interpreter (part II) kata from Codewars.com",
       "url": "https://github.com/JakubStyczen/AssemblerInterpreterGo",
       "highlights": [
-        "Implemented assembler interpreter for 20 instructions",
-        "Created program allows to run programs like: Fibonacci, Modulo or GCD",
-        "Created tests for all instructions, parsers and programs",
-        "Created CI pipeline in GitHub Actions to test code and generate test report"
+        "implemented assembler interpreter for 20 instructions,",
+        "created program allows to run programs like: Fibonacci, Modulo or GCD,",
+        "created tests for all instructions, parsers and programs,",
+        "created CI pipeline in GitHub Actions to test code and generate test report."
       ],
       "images": [
         {
@@ -224,7 +226,7 @@
     },
     {
       "name": "Manual and automated testing",
-      "proficiency": 80,
+      "proficiency": 90,
       "proficiency_label": "Advanced: framework like Gauge and PyTest"
     },
     {
@@ -232,34 +234,34 @@
       "proficiency": 80,
       "proficiency_label": "Fluently used"
     },
-    {
-      "name": "Linux os and Bash",
-      "proficiency": 75,
-      "proficiency_label": "Intermediate: Debian, Ubuntu, Raspbian"
-    },
-    {
-      "name": "Networking",
-      "proficiency": 75,
-      "proficiency_label": "Intermediate: debbuging, MQTT, REST API, TCP/IP"
-    },
-    {
-      "name": "C/C++",
-      "proficiency": 70,
-      "proficiency_label": "Intermediate: few projects"
-    },
-    {
+        {
       "name": "Matlab and Simulink",
       "proficiency": 70,
       "proficiency_label": "Intermediate"
     },
     {
+      "name": "Linux os and Bash",
+      "proficiency": 60,
+      "proficiency_label": "Intermediate: Debian, Ubuntu, Raspbian"
+    },
+    {
+      "name": "Networking",
+      "proficiency": 60,
+      "proficiency_label": "Intermediate: debbuging, MQTT, REST API, TCP/IP"
+    },
+    {
       "name": "Soldering and electronics knowledge",
-      "proficiency": 70,
+      "proficiency": 50,
       "proficiency_label": "Intermediate"
     },
     {
-      "name": "Golang",
+      "name": "C/C++",
       "proficiency": 50,
+      "proficiency_label": "Intermediate: few projects"
+    },
+    {
+      "name": "Golang",
+      "proficiency": 40,
       "proficiency_label": "Basics, still learining"
     }
   ],
@@ -275,6 +277,12 @@
       "org": "Stowarzyszenie Elektryków Polskich (SEP)",
       "issued": "03/2024",
       "expire": "03/2029"
+    },
+    {
+      "name": "Driving License cat. B",
+      "org": "",
+      "issued": "",
+      "expire": ""
     }
   ],
   "interests": [
