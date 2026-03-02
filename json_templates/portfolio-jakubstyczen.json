@@ -1,13 +1,13 @@
 {
   "name": "Jakub Styczeń",
-  "label": "Test Engineer",
+  "label": "Software and Test Engineer",
   "image_path": "img/new_photo.jpg",
   "contact": {
     "email": "styczen37@gmail.com",
     "phone": "",
     "location": "Cracow, Poland"
   },
-  "summary": "Student of Master degree Automatics and Robotics   /   Test Engineer Intern at HID    /    Automatics and Robotics Engineer    /    Electronic Technican",
+  "summary": "Software and Test Engineer at HID    /    Student of Master degree Automatics and Robotics    /    Automatics and Robotics Engineer    /    Electronic Technican",
   "base_url": "https://jakubstyczen.github.io/",
   "social_links": [
     {
@@ -24,7 +24,7 @@
   "work_experience": [
     {
       "company": "HID",
-      "position": "Test Engineer Intern",
+      "position": "Software and Test Engineer",
       "url": "https://www.hidglobal.com/",
       "start_date": "01/2025",
       "end_date": "Present",
@@ -32,6 +32,7 @@
       "highlights": [
         "created new automated test cases using Python and Gauge,",
         "ran tests suites using Docker containers and virtual machines,",
+        "created automated test environment setup scripts,",
         "conducted manual test cases using card printers,",
         "created and reviewed tests raports,",
         "refactored repositories."
